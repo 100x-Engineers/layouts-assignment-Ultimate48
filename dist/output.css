@@ -579,6 +579,10 @@ video {
   right: 1rem;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -713,6 +717,10 @@ video {
   width: 2rem;
 }
 
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
 .shrink-0 {
   flex-shrink: 0;
 }
@@ -720,6 +728,10 @@ video {
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.resize-none {
+  resize: none;
 }
 
 .grid-cols-4 {
@@ -1082,6 +1094,11 @@ video {
   line-height: 1rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1130,10 +1147,19 @@ video {
   color: rgb(29 155 240 / var(--tw-text-opacity));
 }
 
+.caret-twitterblue-default {
+  caret-color: #1d9bf0;
+}
+
 .shadow-standard {
   --tw-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
   --tw-shadow-colored: 0px 8px 16px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .backdrop-blur-xl {
@@ -1184,4 +1210,28 @@ video {
 .group:focus .group-focus\:text-twitterblue-default {
   --tw-text-opacity: 1;
   color: rgb(29 155 240 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:px-\[93px\] {
+    padding-left: 93px;
+    padding-right: 93px;
+  }
+
+  .sm\:py-\[15px\] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:px-\[93px\] {
+    padding-left: 93px;
+    padding-right: 93px;
+  }
+
+  .md\:py-\[15px\] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
