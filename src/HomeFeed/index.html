@@ -17,12 +17,12 @@
     <div class="flex w-full h-[58px] justify-around items-center 
         shrink-0 border-0 border-b border-solid border-neutral-700">
         <button class="relative bg-transparent border-transparent font-Inter text-base font-medium text-neutral-50 group focus:text-neutral-400
-        flex justify-center">
+        flex justify-center hover:text-neutral-200">
             For you
             <section class="absolute block inset-y-9 w-14 h-[3px] bg-twitterblue-default rounded-[30px] invisible group-focus:visible"></section>
         </button>
         <button class="bg-transparent border-transparent font-Inter text-base font-medium text-neutral-50 focus:text-neutral-400 group relative
-        flex justify-center">
+        flex justify-center hover:text-neutral-200">
             Following
             <section class="absolute block inset-y-9 w-14 h-[3px] bg-twitterblue-default rounded-[30px] invisible group-focus:visible"></section>
         </button>
@@ -161,12 +161,14 @@
     <section class="fixed bottom-0 flex w-full py-[18px] px-6 justify-center items-center gap-10 border-t border-solid border-neutral-800
     bg-neutral-1000">
     <img src="/public/images/copy-link-home-icon.svg" alt="icon" class="h-6 w-6 shrink-0">
+    <a href="/src/user-profile/index.html">
     <img src="/public/images/copy-link-group.svg" alt="icon" class="h-6 w-6 shrink-0 flex p-1 justify-center
     items-center">
+    </a>
     </section>
 
-    <div class="fixed bottom-24 left-1/2 -translate-x-1/2 flex py-3 px-8 justify-center items-center gap-[10px] 
-    rounded-[100px] bg-searchbarfill">
+    <div class="fixed w-1/3 bottom-24 left-1/2 -translate-x-1/2 flex py-3 px-8 justify-center items-center gap-[10px] 
+    rounded-[100px] bg-searchbarfill text-center">
     <div class="text-neutral-50 font-Inter text-[15px] not-italic font-normal leading-normal">
         Copied to clipboard.
     </div>
@@ -174,7 +176,7 @@
 
     <a href="/src/compose-tweet/index.html">
     <button class="fixed bottom-24 inline-flex p-4 items-start gap-[10px] rounded-[32px] bg-twitterblue-default
-    shadow-standard right-4">
+    shadow-standard right-4 hover:bg-twitterblue-hover">
     <div class="flex justify-center items-center">
     <img src="/public/images/copy-link-buttons-content-content-add.svg" class="h-8 w-8 shrink-0">
     </div>

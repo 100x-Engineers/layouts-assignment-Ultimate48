@@ -33,6 +33,7 @@ module.exports = {
         "error":"#8b141a",
         "head":"#0c375f",
         "dfb":'rgba(255, 255, 255, 0.60)',
+        "change":'rgba(0, 0, 0, 0.6)'
       }
     },
   },
